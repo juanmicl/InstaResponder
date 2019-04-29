@@ -1,11 +1,7 @@
 <?php
 
-set_time_limit(0);
-
 // require instagram-api
-require __DIR__.'/../../../vendor/instagram-api/autoload.php';
-
-// \InstagramAPI\Instagram::$allowDangerousWebUsageAtMyOwnRisk = true;
+require __DIR__.'/../vendor/autoload.php';
 
 /////// CONFIG ///////
 $username = 'username';
