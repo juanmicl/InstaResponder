@@ -1,7 +1,9 @@
 <?php
 
-include 'engine/instagram-api.php';
-include 'engine/functions.php';
+include 'core/config.php';
+include 'core/functions.php';
+
+
 
 while (true) {
 	try {
@@ -12,7 +14,7 @@ while (true) {
 			// iterate 2nd inbox
 			$pending_inbox = json_decode($pending_inbox);
 			foreach ($pending_inbox->inbox->threads as $thread){
-				msgHandler($ig, $thread);
+				msgHandler($ig, $dflow, $thread);
 			}
 			// iterate inbox
 			$inbox = json_decode($inbox);
@@ -20,7 +22,7 @@ while (true) {
 				// check if the last msg is from our userid
 				if ($thread->items{0}->user_id != '6361282126'){
 					// handle msg and send response from DialogFlow
-					msgHandler($ig, $thread);
+					msgHandler($ig, $dflow, $thread);
 					//$ig->direct->sendText(array('thread' => $thread->thread_id), 'We are on maintenance :)');
 				}
 			}

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "453c44ab432c6dfbd05a6d0a4768e8c7",
+    "content-hash": "f9c4c28dc0f8d04b39a4e300973ca1ff",
     "packages": [
         {
             "name": "binsoul/net-mqtt",
@@ -307,360 +307,6 @@
             "time": "2017-07-23T21:35:13+00:00"
         },
         {
-            "name": "firebase/php-jwt",
-            "version": "v5.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/firebase/php-jwt.git",
-                "reference": "9984a4d3a32ae7673d6971ea00bae9d0a1abba0e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/9984a4d3a32ae7673d6971ea00bae9d0a1abba0e",
-                "reference": "9984a4d3a32ae7673d6971ea00bae9d0a1abba0e",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": " 4.8.35"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Firebase\\JWT\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Neuman Vong",
-                    "email": "neuman+pear@twilio.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Anant Narayanan",
-                    "email": "anant@php.net",
-                    "role": "Developer"
-                }
-            ],
-            "description": "A simple library to encode and decode JSON Web Tokens (JWT) in PHP. Should conform to the current spec.",
-            "homepage": "https://github.com/firebase/php-jwt",
-            "time": "2017-06-27T22:17:23+00:00"
-        },
-        {
-            "name": "google/auth",
-            "version": "v1.5.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/googleapis/google-auth-library-php.git",
-                "reference": "0f75e20e7392e863f5550ed2c2d3d50af21710fb"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-auth-library-php/zipball/0f75e20e7392e863f5550ed2c2d3d50af21710fb",
-                "reference": "0f75e20e7392e863f5550ed2c2d3d50af21710fb",
-                "shasum": ""
-            },
-            "require": {
-                "firebase/php-jwt": "~2.0|~3.0|~4.0|~5.0",
-                "guzzlehttp/guzzle": "~5.3.1|~6.0",
-                "guzzlehttp/psr7": "^1.2",
-                "php": ">=5.4",
-                "psr/cache": "^1.0",
-                "psr/http-message": "^1.0"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "^1.11",
-                "guzzlehttp/promises": "0.1.1|^1.3",
-                "phpseclib/phpseclib": "^2",
-                "phpunit/phpunit": "^4.8.36|^5.7",
-                "sebastian/comparator": ">=1.2.3"
-            },
-            "suggest": {
-                "phpseclib/phpseclib": "May be used in place of OpenSSL for signing strings. Please require version ^2."
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Google\\Auth\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "description": "Google Auth Library for PHP",
-            "homepage": "http://github.com/google/google-auth-library-php",
-            "keywords": [
-                "Authentication",
-                "google",
-                "oauth2"
-            ],
-            "time": "2019-04-16T18:48:28+00:00"
-        },
-        {
-            "name": "google/cloud-dialogflow",
-            "version": "v0.7.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/googleapis/google-cloud-php-dialogflow.git",
-                "reference": "8661d6ee6bb29c1ff1a271a501ee6702c45a15dd"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-cloud-php-dialogflow/zipball/8661d6ee6bb29c1ff1a271a501ee6702c45a15dd",
-                "reference": "8661d6ee6bb29c1ff1a271a501ee6702c45a15dd",
-                "shasum": ""
-            },
-            "require": {
-                "google/gax": "^1.0"
-            },
-            "require-dev": {
-                "google/cloud-core": "^1.28",
-                "phpdocumentor/reflection": "^3.0",
-                "phpunit/phpunit": "^4.8|^5.0"
-            },
-            "suggest": {
-                "ext-grpc": "Enables use of gRPC, a universal high-performance RPC framework created by Google."
-            },
-            "type": "library",
-            "extra": {
-                "component": {
-                    "id": "cloud-dialogflow",
-                    "path": "Dialogflow",
-                    "entry": null,
-                    "target": "googleapis/google-cloud-php-dialogflow.git"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Google\\Cloud\\Dialogflow\\": "src",
-                    "GPBMetadata\\Google\\Cloud\\Dialogflow\\": "metadata"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "description": "Google Cloud Dialogflow Client for PHP",
-            "time": "2019-04-16T20:44:33+00:00"
-        },
-        {
-            "name": "google/common-protos",
-            "version": "1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/googleapis/common-protos-php.git",
-                "reference": "13daea6a4f257f3448fbf4450860e659462e0ad5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/common-protos-php/zipball/13daea6a4f257f3448fbf4450860e659462e0ad5",
-                "reference": "13daea6a4f257f3448fbf4450860e659462e0ad5",
-                "shasum": ""
-            },
-            "require": {
-                "google/protobuf": "^3.6.1"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^4.8.36",
-                "sami/sami": "*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Google\\": "src",
-                    "GPBMetadata\\Google\\": "metadata"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "description": "Google API Common Protos for PHP",
-            "homepage": "https://github.com/googleapis/common-protos-php",
-            "keywords": [
-                "google"
-            ],
-            "time": "2019-03-14T19:01:14+00:00"
-        },
-        {
-            "name": "google/gax",
-            "version": "1.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/googleapis/gax-php.git",
-                "reference": "48387fb818c6882296710a2302a0aa973b99afb2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/gax-php/zipball/48387fb818c6882296710a2302a0aa973b99afb2",
-                "reference": "48387fb818c6882296710a2302a0aa973b99afb2",
-                "shasum": ""
-            },
-            "require": {
-                "google/auth": "^1.2.0",
-                "google/common-protos": "^1.0",
-                "google/grpc-gcp": "^0.1.0",
-                "google/protobuf": "^3.7.1",
-                "grpc/grpc": "^1.4",
-                "guzzlehttp/promises": "^1.3",
-                "guzzlehttp/psr7": "^1.2",
-                "php": ">=5.5"
-            },
-            "conflict": {
-                "ext-protobuf": "<3.7.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^4.8.36",
-                "sami/sami": "*",
-                "squizlabs/php_codesniffer": "3.*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Google\\ApiCore\\": "src",
-                    "GPBMetadata\\Google\\": "metadata"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "description": "Google API Core for PHP",
-            "homepage": "https://github.com/googleapis/gax-php",
-            "keywords": [
-                "google"
-            ],
-            "time": "2019-04-23T22:57:39+00:00"
-        },
-        {
-            "name": "google/grpc-gcp",
-            "version": "0.1.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/GoogleCloudPlatform/grpc-gcp-php.git",
-                "reference": "e1ec44c0c39bd204868e2a2ed3cc87ed9006984e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/GoogleCloudPlatform/grpc-gcp-php/zipball/e1ec44c0c39bd204868e2a2ed3cc87ed9006984e",
-                "reference": "e1ec44c0c39bd204868e2a2ed3cc87ed9006984e",
-                "shasum": ""
-            },
-            "require": {
-                "google/auth": "^1.3",
-                "google/protobuf": "^v3.3.0",
-                "grpc/grpc": "^v1.13.0",
-                "php": ">=5.5.0",
-                "psr/cache": "^1.0.1"
-            },
-            "require-dev": {
-                "google/cloud-spanner": "^1.7",
-                "phpunit/phpunit": "4.8.36"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Grpc\\Gcp\\": "src/",
-                    "": "src/generated/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "description": "gRPC GCP library for channel management",
-            "time": "2019-02-14T02:21:15+00:00"
-        },
-        {
-            "name": "google/protobuf",
-            "version": "v3.7.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/protocolbuffers/protobuf-php.git",
-                "reference": "0657d28864692480c3d8506ba4fc90e8813deae5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/protocolbuffers/protobuf-php/zipball/0657d28864692480c3d8506ba4fc90e8813deae5",
-                "reference": "0657d28864692480c3d8506ba4fc90e8813deae5",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.5.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": ">=4.8.0"
-            },
-            "suggest": {
-                "ext-bcmath": "Need to support JSON deserialization"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Google\\Protobuf\\": "src/Google/Protobuf",
-                    "GPBMetadata\\Google\\Protobuf\\": "src/GPBMetadata/Google/Protobuf"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "description": "proto library for PHP",
-            "homepage": "https://developers.google.com/protocol-buffers/",
-            "keywords": [
-                "proto"
-            ],
-            "time": "2019-03-26T18:06:41+00:00"
-        },
-        {
-            "name": "grpc/grpc",
-            "version": "1.19.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/grpc/grpc-php.git",
-                "reference": "0f1ffdde45bfb9257c5d9eab81695d0f042bea22"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/grpc/grpc-php/zipball/0f1ffdde45bfb9257c5d9eab81695d0f042bea22",
-                "reference": "0f1ffdde45bfb9257c5d9eab81695d0f042bea22",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.5.0"
-            },
-            "require-dev": {
-                "google/auth": "^v1.3.0"
-            },
-            "suggest": {
-                "ext-protobuf": "For better performance, install the protobuf C extension.",
-                "google/protobuf": "To get started using grpc quickly, install the native protobuf library."
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Grpc\\": "src/lib/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "description": "gRPC library for PHP",
-            "homepage": "https://grpc.io",
-            "keywords": [
-                "rpc"
-            ],
-            "time": "2019-02-27T04:47:56+00:00"
-        },
-        {
             "name": "guzzlehttp/guzzle",
             "version": "6.3.3",
             "source": {
@@ -844,6 +490,45 @@
             "time": "2018-12-04T20:46:45+00:00"
         },
         {
+            "name": "juanmicl/dummiesflow",
+            "version": "v1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/juanmicl/DummiesFlow.git",
+                "reference": "853ffb1bd9f7bae7471ddd7ccf861d5b693f774c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/juanmicl/DummiesFlow/zipball/853ffb1bd9f7bae7471ddd7ccf861d5b693f774c",
+                "reference": "853ffb1bd9f7bae7471ddd7ccf861d5b693f774c",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^6.3"
+            },
+            "require-dev": {
+                "guzzlehttp/guzzle": "^6.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "juanmicl\\dummiesflow\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "AGPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "juanmi.pw",
+                    "email": "contacto@juanmi.pw"
+                }
+            ],
+            "description": "DialogFlow PHP for dummies",
+            "time": "2019-04-30T00:36:24+00:00"
+        },
+        {
             "name": "lazyjsonmapper/lazyjsonmapper",
             "version": "v1.6.3",
             "source": {
@@ -968,52 +653,6 @@
                 "private"
             ],
             "time": "2019-04-26T23:11:51+00:00"
-        },
-        {
-            "name": "psr/cache",
-            "version": "1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/php-fig/cache.git",
-                "reference": "d11b50ad223250cf17b86e38383413f5a6764bf8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/cache/zipball/d11b50ad223250cf17b86e38383413f5a6764bf8",
-                "reference": "d11b50ad223250cf17b86e38383413f5a6764bf8",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Psr\\Cache\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
-                }
-            ],
-            "description": "Common interface for caching libraries",
-            "keywords": [
-                "cache",
-                "psr",
-                "psr-6"
-            ],
-            "time": "2016-08-06T20:24:11+00:00"
         },
         {
             "name": "psr/http-message",
