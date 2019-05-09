@@ -32,7 +32,7 @@ _Composer checks your system's capabilities and selects libraries based on your 
 php bot.php
 ```
 ## Legal
-This code is in no way affiliated with, authorized, maintained, sponsored or endorsed by Google or any of its affiliates or subsidiaries. This is an independent and unofficial API. Use at your own risk.
+This code is in no way affiliated with, authorized, maintained, sponsored or endorsed by Instagram and Google or any of its affiliates or subsidiaries. This is an independent and unofficial API. Use at your own risk.
 
 ## Credits
 Thanks to mgp25 for instagram-php api!
