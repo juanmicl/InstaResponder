@@ -25,6 +25,13 @@ function msgHandler($ig, $dflow, $thread){
 			'thread' => $thread->thread_id),
 			"Can't understand this kind of media."
 		);
+	// Link
+	} elseif ($thread->items{0}->item_type == 'link') {
+		$response = $dflow->query($thread->thread_id, $thread->last_permanent_item->link->text);
+		$ig->direct->sendText(array(
+			'thread' => $thread->thread_id),
+			$response
+		);	
 	} else {
 		
 		$response = $dflow->query($thread->thread_id, $thread->last_permanent_item->text);
